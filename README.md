@@ -1,16 +1,22 @@
 # TSX-EXPRESS-GENERATOR
 
-This is a simple project starter: it provides the setup of a simple nodejs/express typescript API server.
+This is a simple project starter: it provides the setup of a simple nodejs/express typescript API server with ESlint and Prettier configuration along with vscode settings.
 
 ## Dependencies
 
 Dev dependencies:
 
-- typescript
-- @types/node
-- @types/express
-- ts-node
-- nodemon
+- **typescript**:
+- **@types/node**:
+- **@types/express**:
+- **tsx**:
+- **nodemon**:
+- **typescript-eslint/eslint-plugin**: Adds TypeScript-specific linting rules
+- **typescript-eslint/parser**: Allows ESLint to understand TypeScript syntax
+- **eslint**: Analyzes code to identify problems and ensure adherence to standards defined in .eslintrc.json
+- **eslint-config-prettier**: Disables ESLint rules that conflict with Prettier
+- **eslint-plugin-prettier**: Runs Prettier as an ESLint rule — lets ESLint report formatting issues
+- **prettier**: It takes care of formatting the code according to the rules defined in .prettierrc
 
 Server Dependencies:
 

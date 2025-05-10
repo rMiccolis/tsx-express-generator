@@ -2,13 +2,13 @@
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "prettier"],
   "extends": [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended",
+    "eslint:recommended", // Includes rules recommended by ESLint
+    "plugin:@typescript-eslint/recommended", // Adds recommended rules for TypeScript
     "plugin:prettier/recommended" // Turns off ESLint formatting rules that might conflict with Prettier. // Adds Prettier errors as ESLint errors
   ],
   "rules": {
-    "prettier/prettier": "error",
-    "no-unused-vars": "warn",
-    "no-console": "off"
+    "prettier/prettier": "error", // Treat violations of Prettier's rules as errors
+    "no-unused-vars": "warn", // Issues a warning for unused variables
+    "no-console": "off" // Disable the warning for using console.log
   }
 }
