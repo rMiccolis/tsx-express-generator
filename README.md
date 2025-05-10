@@ -41,7 +41,7 @@ File content `tsconfig.json`
 ## Project Structure
 
 ```uml
-express-ts-app/
+app/
 ├── src/
 │   ├── config/
 │   ├── controllers/
