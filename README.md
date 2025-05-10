@@ -41,7 +41,7 @@ File content `tsconfig.json`
 ## Project Structure
 
 ```uml
-app/
+root/
 ├── src/
 │   ├── config/
 │   ├── controllers/
