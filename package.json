@@ -11,7 +11,7 @@
   },
   "license": "ISC",
   "author": "author",
-  "type": "commonjs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "start": "node dist/app.js",

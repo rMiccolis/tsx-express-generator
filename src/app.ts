@@ -16,7 +16,7 @@ app.use('/example', exampleRoute);
 
 // Main server route
 app.get('/', (req: Request, res: Response) => {
-  res.send('Express + TypeScript Default Server');
+  res.status(200).json({ res: 'Express + TypeScript Default Server' });
 });
 
 // Server start
